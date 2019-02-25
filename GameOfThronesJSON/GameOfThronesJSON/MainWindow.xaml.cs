@@ -39,6 +39,8 @@ namespace GameOfThronesJSON
                 {
                     var content = response.Content.ReadAsStringAsync().Result;
                     HerokuQuote q = JsonConvert.DeserializeObject<HerokuQuote>(content);
+                    quote.Inlines.Add(new Italic(new Run(q.quote)));
+                    quote.Inlines.Add(new Run(q.character));
                     
                 }
             }
