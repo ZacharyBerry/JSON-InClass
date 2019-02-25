@@ -1,0 +1,17 @@
+﻿<Window x:Class="GameOfThronesJSON.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameOfThronesJSON"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource=<ImageBrush ImageSource="{https://www.bing.com/images/search?view=detailV2&ccid=LXJMFF8x&id=A86B20B2C1926FCF7665DFE3727B24B7E43B6EC6&thid=OIP.LXJMFF8xGBrdr6BqbhQ9TQHaLH&mediaurl=http%3a%2f%2fvignette4.wikia.nocookie.net%2fgameofthrones%2fimages%2f9%2f9c%2fTyrionLannister5.jpg%2frevision%2flatest%3fcb%3d20160212103039%26path-prefix%3dde&exph=2233&expw=1488&q=game+of+thrones&simid=608048938345497630&selectedIndex=6&ajaxhist=0}" Stretch="UniformToFill"/>
+
+                <ImageBrush>
+                </Grid.BackGround>
+            <textBlock
+    </Grid>
+</Window>
